@@ -180,12 +180,7 @@ if (!isNil "server_name") then {
     ((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
   };
 };
-
-//Run UPSMON, SHK, SAR_AI
-call compile preprocessFileLineNumbers "addons\UPSMON\scripts\Init_UPSMON.sqf";
-call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
-[] execVM "addons\SARGE\SAR_AI_init.sqf";     
-     
+ 
 //Radio on Map
 execVM "custom\RC\init.sqf";
 

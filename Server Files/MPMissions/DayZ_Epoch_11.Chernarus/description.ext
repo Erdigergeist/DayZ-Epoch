@@ -527,4 +527,3 @@ class CfgSounds
 #include "custom\rightclick\extra_rc.hpp"
 #include "custom\snap_build\snappoints.hpp"
 #include "custom\gui\ATD_Hud.h"
-#include "addons\SARGE\SAR_define.hpp"

@@ -27,6 +27,16 @@ Included Custom Addons
 * Bell 47/H-13 Helicopter by hcpookie - http://www.armaholic.com/page.php?id=22143
 
 --------------------------
+Included Custom Addons
+--------------------------
+* DZMS - https://github.com/SMVampire/DZMS-DayZMissionSystem
+* WAI - https://github.com/f3cuk/WICKED-AI/tree/master
+* Debug - Monitor http://dayz.st/w/Debug_Monitor
+* Burn Player/Zombie - by Rorschach, inspired by http://opendayz.net/threads/release-tent-ignite-dayz1-7-7-1.13304/
+* Grave Player by Rorschach, inspired by .... looking for link :)
+* many more and they will follow
+
+--------------------------
 Included Custom Islands
 --------------------------
 * Sauerland by Falconsan - http://www.s6computer.de/
@@ -37,7 +47,7 @@ Included Custom Islands
 * | German Town - and waysigns http://www.armaholic.com/page.php?id=9658
 
 --------------------------
-Developers
+Developers Original Epoch
 --------------------------
 * [VB]AWOL - Lead Developer - http://www.twitch.tv/vbawol
 * Axle - Beta Tester, Lead Trader City Designer, Ideas. - http://www.twitch.tv/axles
