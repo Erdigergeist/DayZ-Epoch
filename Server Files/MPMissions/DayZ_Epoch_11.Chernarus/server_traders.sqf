@@ -2,7 +2,7 @@
 serverTraders = ["RU_Functionary1","RU_Citizen3","Rocker4","Profiteer4","Rita_Ensler_EP1","CIV_EuroMan01_EP1","CIV_EuroMan02_EP1","TK_GUE_Soldier_5_EP1","GUE_Soldier_MG","Worker2","Worker3","Woodlander1","UN_CDF_Soldier_Pilot_EP1","RU_WorkWoman1","Dr_Annie_Baker_EP1","RU_Citizen4","RU_WorkWoman5","RU_Citizen1","RU_Villager3","TK_CIV_Takistani04_EP1","Pilot_EP1","RU_Profiteer4","Woodlander3","Dr_Hladik_EP1","Doctor","HouseWife1","GUE_Woodlander2"];
 // Hero Vendor
 menu_RU_Functionary1 = [
-	[["Ammunition",478],["Clothes",476],["Helicopter Armed",493],["Military Armed",562],["Trucks Armed",479],["Weapons",477]],
+	[["Gemstone",912],["Clothes",476],["Seed Market",914],["--- Vehicles ---",001],["Helicopter Armed",493],["Military Armed",562],["Trucks Armed",479],["Tanks",910],["--- Epoch ---",001],["Hero Weapons",477],  ["Black Market Weapons",526],["Pistols",617],["Assault Rifle",602],["Light Machine Gun",616],["Shotguns and Single-shot",620],["Sniper Rifle",619],["Submachine Guns",618],["Assorted Ammunition",902],["Smoke Grenades",671],["Explosives",529],["--- OverWatch ---",002],["Pistols",1000],["ACRs",1100],["H&K Assault Rifles", 1101],["Magpul ACRs",1102],["Tarvors",1103],["Opfor Assault Rifles",1104],["Marksman Rifles",1002],["SMGs",1003],["Heavy Machine Guns",1004],["Assorted Ammunition",1005]],
 	[],
 	"hero"
 ];
@@ -50,7 +50,7 @@ menu_TK_GUE_Soldier_5_EP1 = [
 ];
 // Bandit Trader
 menu_GUE_Soldier_MG = [
-	[["Ammunition",577],["Clothing",575],["Helicopter Armed",512],["Military Armed",569],["Trucks Armed",534],["Weapons",627]],
+	[["Gemstone",912],["Clothes",575],["Seed Market",915],["--- Vehicles ---",001],["Helicopter Armed",512],["Military Armed",569],["Trucks Armed",534],["Tanks",911],["--- Epoch ---",001],["Bandit Weapons",627],["Black Market Weapons",526],["Pistols",606],["Assault Rifle",602],["Light Machine Gun",603],["Shotguns and Single-shot",607],["Sniper Rifle",605],["Submachine Guns",604],["Assorted Ammunition",901],["Smoke Grenades",671],["Explosives",529],["--- OverWatch ---",002],["Pistols",1000],["ACRs",1100],["H&K Assault Rifles", 1101],["Magpul ACRs",1102],["Tarvors",1103],["Opfor Assault Rifles",1104],["Marksman Rifles",1002],["SMGs",1003],["Heavy Machine Guns",1004],["Assorted Ammunition",1005]],
 	[],
 	"hostile"
 ];

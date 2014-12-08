@@ -3,6 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
+    "aif_arma1buildings",
 		"brg_africa",
 		"CABuildings",
 		"CABuildings2",
@@ -25,6 +26,8 @@ class Mission
 		"dayz_vehicles",
 		"cacharacters_pmc",
 		"ca_modules_functions",
+    "bb_mercenary",
+    "ca_communityconfigurationproject_e_editor_addedlargeweaponvariants",
 		"ibr_lingor",
 		"ibr_lcivilian_patch",
 		"chn_crocodile",
@@ -33,7 +36,32 @@ class Mission
 		"pook_h13",
 		"csj_gyroac",
 		"map_eu",
-		"jetskiyanahuiaddon"
+		"jetskiyanahuiaddon",
+		"gms_k98",
+		"RH_m14",
+		"FHQ_Remington",
+		"FHQ_Remington_ammo",
+		"FHQ_Remington_msr",
+		"FHQ_Remington_xm2010",
+		"FHQ_Remington_acr",
+		"FHQ_Remington_rsass",
+		"VILAS_WWP",
+		"VILAS_RW_Forces",
+		"VILAS_WWP_CO",
+		"VILAS_RW_Forces_CO",
+		"ddopp_taserpack",
+		"CSJ_GyroAC",
+		"JetSkiYanahuiAddon",
+		"smk_anims_lite",
+		"MicroAirVehicles",
+		"oz_is_objects",
+		"monaro",
+		"gsc_units_stalker_patch",
+		"american_law_enforcement",
+		"CYBP_Camels_Config",
+		"nissan_350z",
+    "USSOF_US_Navy_SEALs",
+    "ussr_cheytac"
 	};
 	addOnsAuto[]=
 	{
@@ -44,8 +72,8 @@ class Mission
 	randomSeed=11171215;
 	class Intel
 	{
-		briefingName="DayZ Epoch Lingor";
-		briefingDescription="DayZ Epoch Lingor Private Server";
+		briefingName="DayZ Overpoch Lingor";
+		briefingDescription="Senzai Wasteland Paradise";
 		startWeather=0.067362607;
 		forecastWeather=0.52341133;
 		year=2008;
@@ -1187,7 +1215,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=37;
+		items=39;
 		class Item0
 		{
 			position[]={4078.8516,30.836605,4757.7241};
@@ -1460,7 +1488,423 @@ class Mission
 			type="mil_dot";
 			colorName="ColorBlue";
 		};
-	};
+	  class Item37
+    {
+      position[]={3614.4482,0,1370.1813};
+      name="calamarTrader";
+      text="Trader City Calamar";
+      type="mil_circle";
+      colorName="ColorBlue";
+    };
+    class Item38
+    {
+      position[]={5791.8701,0,4733.0981};
+      name="corazonTrader";
+      text="Trader City Corazon";
+      type="mil_circle";
+      colorName="ColorBlue";
+    };
+  };
+  class Sensors
+	{
+		items=26;
+		class Item0
+		{
+			position[]={6539.8096,20.420567,6868.8203};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="RepairGuy";
+			expCond="(player distance RepairGuy) < 15;";
+			expActiv="TitleText[""Now entering Axles Repair Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Axles Repair Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item1
+		{
+			position[]={7026.7695,11.873646,7105.6934};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="PlaneVendor";
+			expCond="(player distance PlaneVendor) < 15;";
+			expActiv="TitleText[""Now entering AWOL's Planes Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving AWOL's Planes Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item2
+		{
+			position[]={3054.834,14.806208,8032.8389};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Wholesale";
+			expCond="(player distance Wholesale) < 15;";
+			expActiv="TitleText[""Now entering Wholesaler Blivion Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Wholesaler Blivion Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item3
+		{
+			position[]={3608.7268,235.08131,3685.8149};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="HighWeapons";
+			expCond="(player distance HighWeapons) < 15;";
+			expActiv="TitleText[""Now entering Jim and Joe's Weapons/Ammo Store"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Jim and Joe's Weapons/Ammo Store"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item4
+		{
+			position[]={4245.8931,46.366299,4486.48};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Parts";
+			expCond="(player distance Parts) < 15;";
+			expActiv="TitleText[""Now entering Whiskey's Parts"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Whiskey's Parts"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item5
+		{
+			position[]={4138.7852,23.635477,1492.9089};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Choppers";
+			expCond="(player distance Choppers) < 15;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item6
+		{
+			position[]={7553.0757,11.996795,3028.4924};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="lowEndCars";
+			expCond="(player distance lowEndCars) < 15;";
+			expActiv="TitleText[""Now entering Used Cars Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Used Cars Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item7
+		{
+			position[]={7514.9941,10.998494,2953.7041};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="LowEndWeapons";
+			expCond="(player distance LowEndWeapons) < 15;";
+			expActiv="TitleText[""Now entering Chuck and Buck's Weapons Store"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Chuck and Buck's Weapons Store"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };                                                                  
+ 		class Item8
+		{
+			position[]={3024.4265,45.493584,5956.77};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="HighEndCars";
+			expCond="(player distance HighEndCars) < 15;";
+			expActiv="TitleText[""Now entering Green's Quality Cars"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Green's Quality Carsh"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item9
+		{
+			position[]={895.26929,29.506145,5271.8955};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="MedicalandBags";
+			expCond="(player distance MedicalandBags) < 15;";
+			expActiv="TitleText[""Now entering Alejandria and Melly's Medica/Survival Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Alejandria and Melly's Medica/Survival Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item10
+		{
+			position[]={8357.583,23.403641,8740.0039};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Wholesaler";
+			expCond="(player distance Wholesaler) < 15;";
+			expActiv="TitleText[""Now entering Wholesaler Clive Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Wholesaler Clive Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item11
+		{
+			position[]={4178.8506,12.651016,2342.1643};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BagsNFood";
+			expCond="(player distance BagsNFood) < 15;";
+			expActiv="TitleText[""Now entering Baglady Ginas Store"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Baglady Ginas Store "",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+    class Item12
+		{
+			position[]={728.23462,41.254562,1571.2231};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Wholesalers";
+			expCond="(player distance Wholesalers) < 15;";
+			expActiv="TitleText[""Now entering Wholesaler Santos Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Wholesaler Santos Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item13
+		{
+			position[]={1724.5925,42.225693,4137.6128};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="DirtTrackVendor";
+			expCond="(player distance DirtTrackVendor) < 15;";
+			expActiv="TitleText[""Now entering Adventure 4x4"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Adventure 4x4"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item14
+		{
+			position[]={2376.5916,56.980717,4120.5234};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="OffRoad4x4";
+			expCond="(player distance OffRoad4x4) < 15;";
+			expActiv="TitleText[""Now entering MotoDrom 4x4 Offroad"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving MotoDrom 4x4 Offroad"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item15
+		{
+			position[]={4015.4907,4.2447982,5216.2656};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BoatVendor";
+			expCond="(player distance BoatVendor) < 15;";
+			expActiv="TitleText[""Now entering Big Bob's Boats Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Big Bob's Boats Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item16
+		{
+			position[]={3939.04,2.6928787,2199.4922};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BoatVendor2";
+			expCond="(player distance BoatVendor2) < 15;";
+			expActiv="TitleText[""Now entering Jd's Armed boats Store"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Jd's Armed boats Store"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+ 		class Item17
+		{
+			position[]={6673.0313,52.049561,6355.9775};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BagVendor1";
+			expCond="(player distance BagVendor1) < 15;";
+			expActiv="TitleText[""Now entering Stella's Stop Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Stella's Stop Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+    class Item18
+		{
+			position[]={4238.8086,48.201847,4842.0874};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BagVendor2";
+			expCond="(player distance BagVendor2) < 15;";
+			expActiv="TitleText[""Now entering Samish Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Samish Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+    class Item19
+		{
+			position[]={6679.3359,26.402266,4296.9727};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Doctor2";
+			expCond="(player distance Doctor2) < 15;";
+			expActiv="TitleText[""Now entering Mad Scientist Labor"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Mad Scientist Labor"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+    class Item20
+		{
+			position[]={4099.8286,16.890327,9242.6455};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="BanditTrader";
+			expCond="(player distance BanditTrader) < 35;";
+			expActiv="TitleText[""Now entering Bandit Army Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Bandit Army Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+			};
+	  };
+    class Item21
+		{
+			position[]={4139.7085,23.635477,1465.8002};
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="HeroTrader";
+			expCond="(player distance HeroTrader) < 35;";
+			expActiv="TitleText[""Now entering Hero Trader Store and Chip's Choppers Shop"",""PLAIN DOWN""]; canbuild = false;";
+			expDesactiv="TitleText[""Now leaving Hero Trader Store and Chip's Choppers Shop"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+      };
+	  };
+    class Item22
+    {
+      position[]={6673.0313,52.049561,6355.9775};
+      a=25;
+      b=25;
+      activationBy="WEST";
+      repeating=1;
+      interruptable=1;
+      age="UNKNOWN";
+      name="BagVendor1";
+      expCond="(player distance BagVendor1) < 15;";
+      expActiv="TitleText[""Now entering Stella's Stop"",""PLAIN DOWN"", 2]; canbuild = false; inTraderCity = ""Stella's Stop"";";
+      expDesactiv="TitleText[""Now leaving Stella's Stop"",""PLAIN DOWN"", 2]; canbuild = true; inTraderCity = ""Any"";";
+      class Effects
+      {
+      };
+    };
+    class Item23
+    {
+      position[]={4238.8086,48.201847,4842.0874};
+      a=25;
+      b=25;
+      activationBy="WEST";
+      repeating=1;
+      interruptable=1;
+      age="UNKNOWN";
+      name="BagVendor2";
+      expCond="(player distance BagVendor2) < 15;";
+      expActiv="TitleText[""Now entering Samish Shop"",""PLAIN DOWN"", 2]; canbuild = false; inTraderCity = ""Samish Shop"";";
+      expDesactiv="TitleText[""Now leaving Samish Shop"",""PLAIN DOWN"", 2]; canbuild = true; inTraderCity = ""Any"";";
+      class Effects
+      {
+      };
+    };
+    class Item24
+    {
+      position[]={3614.4482,0,1370.1813};
+      a=75;
+      b=75;
+      activationBy="WEST";
+      repeating=1;
+      interruptable=1;
+      age="UNKNOWN";
+      name="calamarTrader";
+      expCond="(player distance calamarTrader) < 50;";
+      expActiv="TitleText[""Now entering Trader City Calamar"",""PLAIN DOWN"", 2]; canbuild = false; inTraderCity = ""Trader City Calamar"";";
+      expDesactiv="TitleText[""Now leaving Trader City Calamar"",""PLAIN DOWN"", 2]; canbuild = true; inTraderCity = ""Any"";";
+      class Effects
+      {
+      };
+    };
+    class Item25
+    {
+      position[]={5791.8701,0,4733.0981};
+      a=75;
+      b=75;
+      activationBy="WEST";
+      repeating=1;
+      interruptable=1;
+      age="UNKNOWN";
+      name="corazonTrader";
+      expCond="(player distance corazonTrader) < 50;";
+      expActiv="TitleText[""Now entering Trader City Corazon"",""PLAIN DOWN"", 2]; canbuild = false; inTraderCity = ""Trader City Corazon"";";
+      expDesactiv="TitleText[""Now leaving Trader City Corazon"",""PLAIN DOWN"", 2]; canbuild = true; inTraderCity = ""Any"";";
+      class Effects
+      {
+      };
+    };  
+  };
 };
 class Intro
 {
