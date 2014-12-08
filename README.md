@@ -27,7 +27,7 @@ Included Custom Addons
 * Bell 47/H-13 Helicopter by hcpookie - http://www.armaholic.com/page.php?id=22143
 
 --------------------------
-Included Custom Addons
+Included Custom Modifications
 --------------------------
 * DZMS - https://github.com/SMVampire/DZMS-DayZMissionSystem
 * WAI - https://github.com/f3cuk/WICKED-AI/tree/master
